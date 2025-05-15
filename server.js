@@ -12,7 +12,7 @@ app.use(express.json())
 
 const port                  = '3000'
 const productRoute          = '/product'
-const productID             = 'productID'
+const productID             = 'id'
 const productRouteWithID    = `${ productRoute }/:${ productID }`
 
 
@@ -33,6 +33,9 @@ app.post(productRoute, async (request, response) => {
 
 app.get(productRoute, async (request, response) => {
     response.json(await Product.find())
+})
+app.get(productRouteWithID, async (request, response) => {
+    response.json(await Product.findById(request.params.productID))
 })
 
 
