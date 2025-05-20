@@ -12,7 +12,7 @@ app.use(express.json())
 app.use('/api/user', authRoute)
 app.use('/api/posts', postRoute)
 
-const port = '3000'
+const port = '3002'
 const productRoute = '/product'
 const productID = 'id'
 const productRouteWithID = `${productRoute}/:${productID}`
