@@ -61,3 +61,7 @@ node server.js
 
 ## Front repository:
 https://github.com/zackaryoconnor/ecommerce-site.git
+
+<img width="500" alt="Screen Shot 2025-05-20 at 11 11 57 AM" src="https://github.com/user-attachments/assets/35c17fbd-775f-491f-9b2f-f31ab85f889d"/>
+<img width="500" alt="Screen Shot 2025-05-20 at 11 12 44 AM" src="https://github.com/user-attachments/assets/de995d16-1f31-4398-a9cc-a768905455b5"/>
+project link http://54.90.193.130:5173
